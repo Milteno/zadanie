@@ -1,0 +1,40 @@
+.buttonForm {
+  position: relative;
+  width: 100%;
+  height: 38px;
+
+  background: #4F46E5;
+  /* shadow/sm */
+
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  border: none;
+
+/* text-sm/leading-5/font-medium */
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+
+  /* white */
+
+  color: #FFFFFF;
+  &:disabled {
+    background: #DADADA;
+  }
+}
+.Icon {
+  position: absolute;
+  left: 13px;
+}
